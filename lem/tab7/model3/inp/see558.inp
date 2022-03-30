@@ -1,0 +1,14 @@
+lat 1
+man 3
+
+dim 2 2 2 7
+lab X A B x
+mod X|x 
+                 A|X
+                 B|X
+rec 1241
+
+dum 1 1 1 1
+dat geometry.dat
+ite 10000
+see 558

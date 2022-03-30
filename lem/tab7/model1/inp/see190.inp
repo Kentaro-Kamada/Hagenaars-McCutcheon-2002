@@ -1,0 +1,14 @@
+lat 1
+man 2
+con 1
+dim 2 2 2
+lab X A B x
+mod X|x {X, cov(x, 1, X, c, -1)} 
+                 A|X
+                 B|X
+rec 1241
+des [0 1]
+dum 1 1 1
+dat geometry.dat
+ite 10000
+see 190
